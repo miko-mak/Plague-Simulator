@@ -119,7 +119,7 @@ public class PlagueApplication extends Application {
         Scene scene = new Scene(borderPane, 900, 600);
         borderPane.setBackground(new Background(new BackgroundFill(Color.rgb(26, 32, 48), null, null)));
 
-        InputStream iconStream = getClass().getResourceAsStream("./icon.png");
+        InputStream iconStream = getClass().getResourceAsStream("icon.png");
         if (iconStream != null) {
             stage.getIcons().add(new Image(iconStream));
         }
